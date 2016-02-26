@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.TourAccount"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="10"/>
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/tour_icon"
+            android:label="@string/app_name" android:theme="@style/MaterTheme">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <!--activity android:name=".activity.TourAccountActivity"></activity-->
+        <activity android:name=".activity.TourActivity"></activity>
+        <activity android:name=".activity.CreateTourActivity"></activity>
+        <activity android:name=".activity.EditTourActivity"></activity>
+        <activity android:name=".activity.CreateCurrencyActivity"></activity>
+        <activity android:name=".activity.CreateNewItemActivity"></activity>
+        <activity android:name=".activity.CreateCurrRateActivity"></activity>
+        <activity android:name=".activity.SelectCurrenciesForTourActivity"
+                  android:theme="@android:style/Theme.Dialog"></activity>
+        <activity android:name=".activity.SetCurrRatesActivity" android:theme="@android:style/Theme.Dialog"></activity>
+        <activity android:name=".activity.CreateTouristActivity" android:theme="@android:style/Theme.Dialog"></activity>
+        <activity android:name=".activity.ShowPloatActivity"></activity>
+        <activity android:name=".activity.plot.ModelPlotActivity"></activity>
+        <activity android:name=".activity.plot.LinearPlotActivity"></activity>
+        <activity android:name=".activity.TouristTotalActivity"></activity>
+        <activity android:name=".activity.AddItemTouristActivity"></activity>
+    </application>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest> 

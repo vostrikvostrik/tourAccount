@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".MainActivity" android:padding="6dp" style="@style/AppBaseTheme.MainTheme">
+
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Туры"
+            android:id="@+id/textView_selected" android:textColor="#1e925b"
+            android:textStyle="bold" android:autoText="true"/>
+    <GridView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gridView_Tours" android:layout_gravity="center"
+            android:divider="#CDCDCD"
+            android:dividerHeight="1dip"
+            android:cacheColorHint="#00000000" android:background="@drawable/grid_color"
+            android:horizontalSpacing="5dp" android:listSelector="#1213a0" android:paddingBottom="5dp"
+            android:verticalSpacing="5dp"/>
+</LinearLayout>
+

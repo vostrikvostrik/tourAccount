@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MaterTheme" parent="@android:style/Theme.Black">
+        <item name="android:windowBackground">@color/back_screen</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:buttonStyle">@style/MaterThemeButton</item>
+    </style>
+    <style name="MaterThemeButton" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/gradient_button</item>
+    </style>
+</resources>

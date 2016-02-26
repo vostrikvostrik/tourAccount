@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/action_new_item"
+            android:orderInCategory="100"
+            android:title="@string/action_new_item"/>
+    <item
+            android:id="@+id/action_mail_item"
+            android:orderInCategory="100"
+            android:title="@string/action_mail_item"/>
+    <item
+            android:id="@+id/action_graf"
+            android:orderInCategory="100"
+            android:title="@string/action_graf"/>
+    <item
+            android:id="@+id/action_tour_settings"
+            android:orderInCategory="100"
+            android:title="@string/action_tour_settings">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                        android:id="@+id/action_curr_rates"
+                        android:orderInCategory="100"
+                        android:title="@string/action_curr_rates"/>
+
+                <item
+                        android:id="@+id/action_edit_tour"
+                        android:orderInCategory="100"
+                        android:title="@string/action_edit_tour"/>
+
+                <item
+                        android:id="@+id/action_tour_curr"
+                        android:orderInCategory="100"
+                        android:title="@string/action_tour_curr"/>
+
+                <item
+                        android:id="@+id/action_tourists"
+                        android:orderInCategory="100"
+                        android:title="@string/action_tourists"/>
+                <item
+                        android:id="@+id/action_archive"
+                        android:orderInCategory="100"
+                        android:title="@string/action_archive"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

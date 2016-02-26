@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:padding="6dp">
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_tours" android:layout_gravity="center" android:longClickable="false"
+            android:background="@drawable/button_background"
+            android:drawableRight="@drawable/check"
+            android:gravity="left|center_vertical" android:textSize="22sp" android:text="@string/toursManage"
+            android:paddingLeft="20dp" android:paddingRight="20dp" android:textStyle="bold"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_plots" android:layout_gravity="center" android:longClickable="false"
+            android:background="@drawable/button_background"
+            android:drawableRight="@drawable/plots"
+            android:gravity="left|center_vertical" android:textSize="22sp" android:text="@string/plotManage"
+            android:paddingLeft="20dp" android:textStyle="bold" android:paddingRight="30dp"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_settings" android:layout_gravity="center" android:longClickable="false"
+            android:background="@drawable/button_background"
+            android:drawableRight="@drawable/options" android:paddingRight="30dp"
+            android:gravity="left|center_vertical" android:textSize="22sp" android:paddingLeft="20dp"
+            android:text="@string/settings" android:textStyle="bold"/>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView" xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/table_layout"
+            style="@android:style/Theme.Dialog">
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/textV_selectedCurr" android:layout_column="0" android:layout_span="4"/>
+
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Button"
+                    android:id="@+id/btn_saveCurrRates" android:layout_column="0" android:layout_span="4"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

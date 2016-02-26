@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Менеджер туров</string>
+    <string name="hello_world2">Second activity!</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_newtour">Новый тур</string>
+    <string name="action_sendmail">Отправка почты</string>
+    <string name="action_graf">Диаграммы</string>
+    <string name="toursManage">Управление турами</string>
+    <string name="plotManage">Диаграммы</string>
+    <string name="settings">Настройки</string>
+    <string name="action_curr_rates">Курсы</string>
+    <string name="action_edit_tour">Тур</string>
+    <string name="action_tour_curr">Валюты</string>
+    <string name="action_tourists">Туристы</string>
+    <string name="action_mail_item">Отправить почтой</string>
+    <string name="action_new_item">Новая запись</string>
+    <string name="action_tour_settings">Настройки тура</string>
+    <string name="action_extractdb">Экспорт БД</string>
+    <string name="action_viewarchive">Архив>></string>
+    <string name="action_viewactual">Актуальные>></string>
+    <string name="action_viewall">Все>></string>
+    <string name="action_archive">Архив</string>
+    <string-array name="itemTypes">
+        <item>Расход</item>
+        <item>Приход</item>
+    </string-array>
+    <string name="cd">Content Description</string>
+    <string name="action_add_item_tourist">Добавить участника</string>
+</resources>

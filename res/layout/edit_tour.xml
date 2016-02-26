@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/scrollView" android:layout_gravity="left|center_vertical"-->
+<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@android:style/Theme.Dialog" android:gravity="top">
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="tour info"
+            android:id="@+id/textView_tourName"/>
+
+    <!--GridView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/gridV_currRates" android:layout_gravity="center"/-->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    style="@style/listViewTourItem"
+                    android:background="@android:drawable/list_selector_background"
+                    android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Итого: "
+                android:id="@+id/textItog"/>
+        <ImageButton
+                style="@style/listViewItemButStyle"
+                android:background="@android:drawable/list_selector_background"
+                android:src="@drawable/ic_details"
+                android:id="@+id/btnViewTourist"
+                android:clickable="true"
+                android:contentDescription="@string/cd"
+                android:layout_alignRight="@+id/textItog"/>
+    </RelativeLayout>
+    <!--com.TourAccount.components.TourItemsGridView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchMode="columnWidth"
+            android:background="@drawable/grid_color"
+            android:id="@+id/gridView_tourItems" android:verticalSpacing="5dp" android:smoothScrollbar="true"
+            android:scrollingCache="true" android:paddingBottom="10dp"/-->
+    <GridView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchMode="columnWidth"
+            android:background="@drawable/grid_color"
+            android:id="@+id/gridView_tourItems" android:verticalSpacing="5dp" android:smoothScrollbar="true"
+            android:scrollingCache="true" android:paddingBottom="10dp"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Новая запись"
+            android:gravity="left|center_vertical" android:textSize="22sp" android:paddingLeft="20dp"
+            android:id="@+id/btn_newTourItem"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical" android:textSize="22sp" android:paddingLeft="20dp"
+            android:text="Отправить почту" android:drawableRight="@drawable/gmail" android:paddingRight="30dp"
+            android:id="@+id/btn_sendMailTour" android:layout_gravity="center"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Построить график"
+            android:id="@+id/btn_getPlot" android:layout_gravity="center"/>
+
+</LinearLayout>
+        <!--/ScrollView-->

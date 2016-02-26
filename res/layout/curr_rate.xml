@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent" style="@android:style/Theme.Dialog">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Валюта 1"
+            android:id="@+id/textV_cur1" android:layout_column="0"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Валюта 2"
+            android:id="@+id/textV_cur2" android:layout_column="0"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editT_val1" android:layout_column="2" android:singleLine="false"
+            android:inputType="numberDecimal" android:minWidth="50dp"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editT_val2" android:layout_column="2" android:singleLine="false"
+            android:inputType="numberDecimal" android:minWidth="50dp"/>
+</TableRow>
